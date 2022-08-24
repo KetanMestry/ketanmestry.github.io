@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Ketan Mestry Portfolio Website</Title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!--Navigation bar-->
+        <div class="navBar">
+            <div class="navButtons">
+                <a href="#">Home</a>
+                <a href="#aboutMe">About Me</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+           
+        </div>
+
+        <!--Intro Section-->
+        <div class="introSection">
+            <h3>Hello,</h3>
+            <h1>I am Ketan Mestry</h1>
+            <h3 class="changeText"></h3>
+            <img src="Images/HomeImage-.png" alt="homePage" class="homeImg" height="550" width="600">
+        </div>
+        
+        <!--About me Section-->
+        <div class="aboutMeSection" id="aboutMe">
+            <img src="Images/AboutMe.png" alt="aboutMe" class="aboutmeImg" height="550" width="600">
+            <h3>About Me</h3>
+            <p>I am a creative and innovative developer where your requirements and my talent can give you a worth your pay output. You are investing your money and I am investing my time, a productive output will definitely be successful. Let's work together and grow our worth!</p>
+
+            <h2>Technical Skills:</h2>
+            <ul>
+                <li>Unity engine, Flutter</li>
+                <li>html, css, java, c#, dart.</li>
+            </ul>
+        </div>
+
+        <!--Projects Section-->
+        <div class="projectsSection" id="project">
+            <img src="Images/project.png" alt="projectImage" height="750" width="800" class="projectImg">
+            <h3>Projects</h3>
+            <ul type="disc" class="projectsList">
+                <li>Android apps:</li>
+                    <ul type="circle">
+                        <li><a href="https://play.google.com/store/apps/details?id=com.hexzatechnologies.unit_converter_app" target="_blank">Unit Converter app:</a>
+                        </li>
+                        <p>Simple unit converter app to calucalte and convert various units.</p>
+
+                        <li><a href="https://play.google.com/store/apps/details?id=com.hexzatechnologies.material_estimator_app" target="_blank">Material Estimator app:</a></li>
+                        <p>Estimation of various construction material. You can calculate the materials you will require to perform specific task i.e. Concrete casting, flooring work, painting work, etc.</p>
+                           
+                    </ul>
+
+                <li>Game:</li>
+                    <ul>
+                        <li> <a href="https://ketanmestry.itch.io/gameprototype" target="_blank">Shooter Game prototype:</a>
+                        </li>
+                        <p>Simple shooter game prototype, where player have to fight with A.I. opponenet to win the game.</p>
+                       
+                    </ul>
+            </ul>
+        </div>
+
+        <!--Contact Section-->
+        <div class="contactSection" id="contact">
+            <img src="Images/contact.png" alt="contactImage" width="750" height="500" class="contactImg">
+            <h3>Contact</h3>
+            <form action="backend.php">
+                <div>
+                    <label for="name">Name:</label>
+                    <br>
+                    <input type="text" id="name" name="nameInput">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="emailInput">
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea name="messageInput" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <div >
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+
+        </div>
+
+
+    </body>
+</html>
