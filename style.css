@@ -285,3 +285,15 @@ input[value=Submit]:hover{
     background-color: #A5C9CA;
     color: #2C3333;
 }
+
+/* FooterSection */
+.footerSection{
+    height: 30px;
+    background-color: #2C3333;
+}
+
+.footerSection p{
+    float: right;
+    margin-right: 15px;
+    color: whitesmoke;
+}
